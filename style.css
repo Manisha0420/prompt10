@@ -1,0 +1,119 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+html ,body {
+     height: 100%;
+     width: 100%;
+}
+main{
+     height: 100%;
+     width: 100%;
+     background: url(https://plus.unsplash.com/premium_photo-1723568423833-d148615f88af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIyfHx8ZW58MHx8fHx8);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     border-radius: 2%;
+}
+main > div {
+
+     background-color: white;
+     width: 70%;
+     height: 100%;
+     position: relative;
+     top: 65%;
+     left: 15%;
+     border-radius: 2%;
+}
+main > div >nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 35px 80PX;
+}
+main > div> nav >h1{
+     font-size: 25px;
+     font-weight: 900;
+}
+main > div> nav >h1 >img{
+     width:35px;
+     height: 15px;
+     text-align: center;
+}
+main > div > nav > div {
+     width:30%;
+     display: flex;
+     gap: 10%;
+
+}
+main > div > nav > div > a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     font-weight: 700;
+}
+main > div > nav > div > a:hover{
+     text-decoration: underline;
+}
+main > div > .page1{
+     width: 100%;
+     height: 100%;
+     padding: 44px 85px;
+}
+main > div > .page1 >div > h1{
+     font-size: 100px;
+     font-weight: 300;
+}
+main > div > .page1 > .one {
+     display: flex;
+     justify-content: space-between;
+     gap: 1%;
+}
+main > div > .page1 > .one >div {
+     width: 40%;
+     padding: 60px 35px;
+}
+main > div > .page1 > .one >div > img {
+     border-radius: 10px;
+}
+main > div > .page1 > .one >div > p{
+     font-size: 15px;
+     font-weight: 100;
+}
+main > div > .page2{
+   
+     height: 100%;
+     padding: 44px 35px;
+     background-color:white;
+     
+}
+main > div > .page2 > h1 {
+     font-size: 45px;
+     font-weight: 700;
+      
+}
+main > div > .page2 > h1 > img{
+     width: 75px;
+     height: 25px;
+     padding-right: 12px;
+}
+main > div > .page2 > .grid{
+     
+     height: 100%;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 3%;
+    
+     padding: 45px 15px;
+}
+main > div > .page2 > .grid > .grid-item{
+     display: inline-grid;
+     padding-bottom: 22px;
+}
+main > div > .page2 > .grid > .grid-item > img{
+     width: 285px;
+     height: 250px;
+     object-fit: cover;
+}
